@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-wrap{
+    position: fixed;
+    width: 100vw;
+    padding: 20px;
+    z-index: 9;
+    background-color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.hero-left{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    text-shadow: 0px 0px 50px white;
+}
+
+.hero-left h2{
+    font-size: 5vw;
+}
+
+.hero-left p{
+    width: 50%;
+    font-size: 1.5vw;
+}
+
+.hero-wrap{
+    background-image: url(https://betterme.world/articles/wp-content/uploads/2021/04/shutterstock_1517634326.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero{
+    backdrop-filter: blur(7px);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, white);
+}
+
+.cont-wrap{
+    padding-block: 100px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.cont h2{
+    text-align: center;
+}
+
+.types{
+    padding-block: 80px;
+    padding-inline: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: linear-gradient(to right, white 40%, rgba(255, 255, 255, 0));
+}
+
+.types-text{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    width: 50%;
+
+}
+
+.types-text h3{
+    font-size: 50px;
+}
+.types-text p{
+    font-size: 25px;
+    /* width: 50%; */
+    padding-block: 50px;
+}
+
+.pbp{
+    background-image: url(https://www.goodnet.org/photos/620x0/29975_hd.jpg);
+}
+.vf{
+    background-image: url(https://insights.figlobal.com/sites/figlobal.com/files/styles/article_featured_retina/public/vertical-farms-01.jpeg?itok=8Keni2u5);
+}
+
+.gm{
+    background-image: url(https://s3-us-west-2.amazonaws.com/mfcollectnew/ChIJi8Wt1taTuEwRbt0Kp4U04vo/OMQ1IvrfxU.jpg);
+    background-position: 0px -600px;
+}
+
+.grad{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.rev{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), white 60%);
+    text-align: right;
+}
+
+.rev-t{
+    margin-left: auto;
+}
+
+.chall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chall h2{
+    text-align: center;
+}
+
+.chall-cont h3{
+    font-size: 30px;
+}
+
+.chall-cont{
+    padding: 60px;
+}
+
+.chall-cont ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.chall-cont ul li{
+    padding: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.footer{
+    background-color: rgb(37, 37, 130);
+}
+
+footer{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+footer span{
+    font-size: 30px;
+}
